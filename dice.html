@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="dice.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="player-0">
+        <h1>PLAYER 1</h1>
+        <h1 class="score-0">0</h1>
+        <h2 class="current">
+          CURRENT <br />
+          <span class="current-0">0</span>
+        </h2>
+        <h1 class="winner1 hidden">
+          💪WINNER🏆<br />
+          🎉🤸‍♀️🎉
+        </h1>
+      </div>
+      <div class="player-1">
+        <h1>PLAYER 2</h1>
+        <h1 class="score-1">0</h1>
+        <h2 class="current">
+          CURRENT <br />
+          <span class="current-1">0</span>
+        </h2>
+        <h1 class="winner2 hidden">
+          💪WINNER🏆<br />
+          🎉🤸‍♀️🎉
+        </h1>
+      </div>
+    </main>
+    <button class="new">🔄️ NEW GAME</button>
+    <button class="role">🎲 ROLE DICE</button>
+    <button class="hold">📥 HOLD</button>
+    <img src="dice 1.jpg" alt="image 1" class="image" />
+    <button class="help">Help</button>
+
+    <div class="info hidden">
+      <button class="close">&times</button>
+      <h1>How to play?</h1>
+      <p>
+        This is a game of two players first, player-1 will role the dice ,if the
+        out came different from 1, then the score will be recorded to current
+        player current-score if it is zero current value will be setted to zero
+        and the second player will proceed. However the current player can hold
+        its current-score to real-score and passes the chance to the second
+        player. The player who reachs 50 will be the winner.<br />
+        😍😁🥰
+        <audio src="role.mp3" controls autoplay loop>
+          <p class='owner'>Anon</p>
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="dice.js"></script>
+  </body>
+</html>
