@@ -8,7 +8,6 @@ Challenge yourself or your friends and see who gets lucky with the highest dice 
 
 🎲 Interactive UI with animated dice rolls
 
-👤 Single or multiplayer support (customize this if true!)
 
 🏆 Real-time score tracking
 
@@ -19,7 +18,7 @@ Challenge yourself or your friends and see who gets lucky with the highest dice 
 Smooth dice roll animations
 Easy-to-understand gameplay
 Clean and modern user interface
-Customizable game rules (add more if you’ve implemented them)
+
 
 No installation needed—just play in your browser!
 
@@ -28,7 +27,7 @@ No installation needed—just play in your browser!
 Click the Roll Dice button.
 Watch the dice spin and land on a random number!
 Compete for the highest score.
-(Optional: Add your own rules or challenge a friend!)
+
 📂 Project Structure
 Code
 Dice-Role-Game/
